@@ -1,0 +1,2 @@
+class DollsController < ApplicationController
+end
