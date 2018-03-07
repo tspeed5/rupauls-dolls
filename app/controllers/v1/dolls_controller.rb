@@ -1,4 +1,4 @@
-class DollsController < ApplicationController
+class V1::DollsController < ApplicationController
   def doll
     doll1 = Doll.first
     render json: {queen: doll1.queen, phrase: doll1.phrase, cost: doll1.cost}
